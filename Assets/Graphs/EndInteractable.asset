@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: EndInteractable
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"end","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-82.16772,"y":234.6783},"zoom":1.0,"elements":[{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-119.0,"y":47.0},"guid":"f6dd163e-0eee-4c60-962d-003628e66a96","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"10"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-390.0,"y":48.0},"guid":"2399a2c0-3b8f-43cc-8ab7-87b2813d824a","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"end","$type":"System.String"},"object":null},"position":{"x":-325.0,"y":207.0},"guid":"570bdea9-93bd-4cc1-a5a5-54dc1bb00389","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnInteract","$type":"System.String"}},"position":{"x":-599.0,"y":43.0},"guid":"004bcc99-6105-4d6c-baa2-56a3e0fedb65","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"20"},{"sourceUnit":{"$ref":"14"},"sourceKey":"exit","destinationUnit":{"$ref":"10"},"destinationKey":"enter","guid":"698b15e8-fba5-4022-a930-129b51aaa58f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"a3cd8534-b857-4f7f-95a4-40e1e6fb4717","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"10"},"destinationKey":"target","guid":"c22486e8-5cb4-48f6-8642-f864a226d6db","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-292.0,"yMin":-71.0,"xMax":-85.0,"yMax":29.0},"title":"Objekt
+      wird aktiviert","body":"Value ist true = Objekt wird akitiviert\n\n","colorTheme":"Classic","guid":"82325598-2b45-4b29-87f6-4e34f96d121a","$type":"Unity.VisualScripting.StickyNote"},{"position":{"xMin":-581.0,"yMin":-103.0,"xMax":-481.0,"yMax":-3.0},"title":"Sticky
+      Note","body":null,"colorTheme":"Classic","guid":"1684b80c-f992-4be0-b0ff-e0d7d9503519","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}'
+    _objectReferences: []
